@@ -1,0 +1,24 @@
+{
+    "name": "plugin-a",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "dependencies": {
+        "@angular/common": "~8.2.4",
+        "@angular/compiler": "~8.2.4",
+        "@angular/core": "~8.2.4",
+        "@angular/forms": "~8.2.4",
+        "rollup": "0.55.1",
+        "rxjs": "~6.4.0"
+    },
+    "devDependencies": {
+        "rollup-plugin-angular": "^0.5.3",
+        "rollup-plugin-commonjs": "^8.3.0",
+        "rollup-plugin-node-resolve": "^3.0.2",
+        "rollup-plugin-typescript": "^0.8.1",
+        "rollup-plugin-typescript2": "^0.10.0",
+        "typescript": "~3.5.3"
+    }
+}

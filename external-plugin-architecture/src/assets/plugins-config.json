@@ -1,0 +1,20 @@
+{
+    "plugin-a": {
+        "name": "Plugin A",
+        "path": "/assets/plugins/plugin-a.js",
+        "deps": [
+            "shared"
+        ]
+    },
+    "plugin-b": {
+        "name": "Plugin B",
+        "path": "/assets/plugins/plugin-b.js",
+        "deps": [
+            "shared"
+        ]
+    },
+    "shared": {
+        "name": "Shared",
+        "path": "/assets/plugins/shared.js"
+    }
+}
